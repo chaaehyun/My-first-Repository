@@ -52,7 +52,7 @@
 >이렇게 ~~ 을 사용할 때 끝맺음을 안하고 중간에  
 >줄을 넘어가게 된다면 취소선이 생기지 않습니다.~~
 
-< Autolink; 자동링크 >
+## < Autolink; 자동링크 >
 - http를 적지 않아도 URL을 인식하여 하이퍼링크로 만들어 준다.
   - 링크 중 `<`이 들어가면 `<` 전까지를 링크로 인식한다.
   - 링크 마지막이 `)`로 끝난다면 링크의 `( )`에 맞춰서 인식한다. 링크가 )로 끝나지 않으면 상관없다.
@@ -70,7 +70,7 @@
 >www.naver.com/(recognized)
 >www.naver.com!
 
-< Disallowed Raw HTML; 허용되지 않는 원시 HTML >
+## < Disallowed Raw HTML; 허용되지 않는 원시 HTML >
 - `tagfilter` HTML 출력을 렌더링 할 때 밑의 HTML 태그들이 필터링되는 확장을 활성화 한다.
   - `<title>`
   - `<textarea>`
